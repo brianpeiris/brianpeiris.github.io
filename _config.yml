@@ -10,11 +10,11 @@ author:
   name: Brian Peiris
   bio:
   github: brianpeiris # github username
-  mastodon: "@brianpeiris@social.coop" # twitter username
+  mastodon: "@brianpeiris@social.coop" # mastodon username
 
 # URL settings
-url: "https://klise.now.sh" #
-baseurl:
+url: "https://brianpeiris.github.io" #
+baseurl: "/blog"
 permalink: /:title/
 
 # Collection setting
