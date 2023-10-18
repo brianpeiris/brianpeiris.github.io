@@ -1,0 +1,75 @@
+# Site settings
+title: Brian Peiris # site title
+description: >- # site description
+  Brian Peiris' Blog
+lang: en-US # default lang
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: Brian Peiris
+  bio:
+  github: brianpeiris # github username
+  mastodon: "@brianpeiris@social.coop" # twitter username
+
+# URL settings
+url: "https://klise.now.sh" #
+baseurl:
+permalink: /:title/
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+  - tags.html
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - tags
+  - "*.sh"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
