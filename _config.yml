@@ -14,7 +14,7 @@ author:
 
 # URL settings
 url: "https://brianpeiris.github.io" #
-baseurl: "/blog"
+baseurl:
 permalink: /:title/
 
 # Collection setting
