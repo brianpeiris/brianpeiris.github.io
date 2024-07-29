@@ -168,7 +168,7 @@ ol {
       text-align: right;
       direction: rtl;
       font-weight: $bold-weight;
-      font-size: $small-font-size;
+      font-size: $small-font-size - 2;
     }
   }
 }

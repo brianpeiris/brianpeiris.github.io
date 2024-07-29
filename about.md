@@ -4,4 +4,7 @@ permalink: /about/
 layout: page
 ---
 
-hi
+- Mastodon: [@brianpeiris@social.coop](https://social.coop/@brianpeiris)
+- LinkedIn: [linkedin.com/in/brianpeiris](http://linkedin.com/in/brianpeiris)
+- GitHub: [brianpeiris](https://github.com/brianpeiris)
+- Email: brianpeiris AT gmail DOT com
